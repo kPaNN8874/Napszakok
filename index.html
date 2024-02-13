@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time of Day Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="greeting">
+      <img src="/src/sun.svg" alt="icon">
+      <h1 id="greeting"></h1>
+    </div>
+    <div class="time" id="time" onload="updateTime()" ></div>
+    <div class="quote">
+      <button id="refreshBtn">Refresh</button>
+      <p id="quote"></p>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
